@@ -1,0 +1,84 @@
+.rectangle {
+  border-radius: 60px;
+  padding: 64px 110px;
+  background: linear-gradient(
+    94.26deg,
+    #7091a7 2.1%,
+    #9bbbca 29.87%,
+    #a9c5d3 49.98%,
+    #aecad8 65.68%,
+    #92bdd1 81.57%,
+    #6e90a4 97.85%
+  );
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 50px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 115%;
+  color: #fdfdfd;
+  max-width: 636px;
+}
+
+.title span {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 35px;
+  line-height: 115%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fdfdfd;
+}
+
+.subtitle span {
+  font-weight: 700;
+}
+
+.chip__container {
+  display: flex;
+  gap: 16px;
+}
+
+.chip {
+  padding: 6px 24px;
+  border-radius: 60px;
+  border: 1px solid #fffaee;
+  color: #fffaee;
+}
+
+.button {
+  width: 300px;
+  height: 85px;
+  top: 610px;
+  left: 306px;
+  border: none;
+  border-radius: 60px;
+  box-shadow: 0px 3px#5B69A6;
+  background: #6d7fcc;
+  color: #fdfdfd;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Inter;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.consult {
+  width: 144px;
+}
+
+.consult p {
+  color: #395664;
+  font-size: 15px;
+}
+
+.consult p span {
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  display: flex;
+  height: 108px;
+  max-width: 1396px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 56px;
+}
+
+.social_container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.iconButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.phone {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.recall {
+  margin-top: 4px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: end;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 6.5%;
+}
