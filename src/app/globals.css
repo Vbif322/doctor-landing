@@ -9,7 +9,22 @@ a {
   cursor: pointer;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
+}
+
+
+a:hover, button:hover {
+  opacity: .8;
+  transition: .2s;
 }
