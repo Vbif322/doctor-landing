@@ -33,6 +33,12 @@
   align-items: center;
 }
 
+.nav_container {
+  display: flex;
+  height: 100%;
+  gap: 16px;
+}
+
 .iconButton {
   position: absolute;
   top: 0;
