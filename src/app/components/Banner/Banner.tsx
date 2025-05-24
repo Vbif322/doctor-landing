@@ -1,9 +1,13 @@
 import { type FC } from "react";
 import s from "./style.module.css";
 import { Arsenal } from "next/font/google";
+import { Cross, Figure } from "@/app/assets/icons";
+import Image from "next/image";
+import banner from "../../assets/img/Лена.png"
 
 const arsenal = Arsenal({
   weight: ["400", "700"],
+  style: ['normal', 'italic'],
   subsets: ["latin"],
 });
 
@@ -22,25 +26,29 @@ const Banner: FC = () => {
         <p className={s.subtitle}>
           для улучшения <span>качества</span> жизни
         </p>
-        <div
-          style={{
-            marginTop: "50px",
-            display: "flex",
-            alignItems: "center",
-            gap: "36px",
-          }}
-        >
+        <div className={s.wrapp}>
           <button className={s.button}>Записаться на прием</button>
           <div className={s.consult}>
+            <div className={s.cross}>
+              <Cross />
+            </div>
             <p>
-              <span>Бесплатная</span> консультация
+              <span>бесплатная</span> консультация
             </p>
           </div>
         </div>
       </div>
-      <div>
-        <p>Карпенко Елена Юрьевна</p>
+      <div className={s.container_name}>
+        <div className={s.figure}>
+          <Figure />
+        </div>
+        <p className={s.name}>
+          <span>Карпенко</span>
+          <span>Елена</span>
+          <span>Юрьевна</span>
+        </p>
       </div>
+      <Image className={s.img} src={banner} alt='Карпенко Елена Юрьевна' />
     </div>
   );
 };
