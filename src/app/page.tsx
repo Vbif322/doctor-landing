@@ -1,5 +1,5 @@
 import Banner from "./components/Banner/Banner";
-import Card from "./components/Card/Card";
+// import Card from "./components/Card/Card";
 import Contacts from "./components/Contacts/Contacts";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <main style={{ maxWidth: "1508px", flex: 1, padding: "16px" }}>
       <Contacts />
       <Banner />
-      <div
+      {/* <div
         style={{
           marginTop: "28px",
           padding: "0 20px",
@@ -20,7 +20,7 @@ export default function Home() {
         <Card title="Специализация" />
         <Card title="Стоимость услуг" />
         <Card title="Отзывы" />
-      </div>
+      </div> */}
     </main>
   );
 }
