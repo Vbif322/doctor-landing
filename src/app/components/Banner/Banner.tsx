@@ -3,7 +3,7 @@ import s from "./style.module.css";
 import { Arsenal } from "next/font/google";
 import { Cross, Figure } from "@/app/assets/icons";
 import Image from "next/image";
-import banner from "../../assets/img/Лена.png"
+import { banner } from '@/app/assets/img'
 
 const arsenal = Arsenal({
   weight: ["400", "700"],
