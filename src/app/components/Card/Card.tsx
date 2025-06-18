@@ -1,14 +1,10 @@
 import { type FC } from "react";
 import s from "./style.module.css";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import { TCard } from "@/app/utils/type/type";
 
-type Props = {
-  title: string;
-  img: StaticImageData;
-  alt: string;
-};
 
-const Card: FC<Props> = ({ title, img, alt }) => {
+const Card: FC<TCard> = ({ title, img, alt }) => {
   return (
     <a className={s.card}
       href="#"
