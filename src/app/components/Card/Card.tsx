@@ -1,17 +1,19 @@
 import { type FC } from "react";
 import s from "./style.module.css";
+import Image from "next/image";
+import { TCard } from "@/app/utils/type/type";
 
-type Props = {
-  title: string;
-  //   img: any;
-};
 
-const Card: FC<Props> = ({ title }) => {
+const Card: FC<TCard> = ({ title, img, alt }) => {
   return (
-    <div className={s.card}>
-      <p>{title}</p>
-      {/* <img src={img} /> */}
-    </div>
+    <a className={s.card}
+      href="#"
+    >
+      <div className={s.container_title}>
+        <p>{title}</p>
+      </div>
+      <Image src={img} alt={alt} />
+    </a>
   );
 };
 
