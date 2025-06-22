@@ -1,0 +1,55 @@
+.education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+    padding-top: 52px;
+}
+
+.academicHat {
+    position: absolute;
+    top: 218px;
+    right: -15px
+}
+
+.wrapBgImg {
+    position: absolute;
+    top: -3px;
+    right: -285px;
+}
+
+.title {
+    color: #0B3347;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 114%;
+    align-self: center;
+    margin-left: 156px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    max-width: 874px;
+    list-style: none;
+}
+
+.text {
+    color: #1F1F1F;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 125%;
+    position: relative;
+}
+
+.text span {
+    font-weight: 600;
+}
+
+.text::before {
+    content: var(--check-mark-education);
+    position: absolute;
+    top: 0;
+    left: -70px;
+}

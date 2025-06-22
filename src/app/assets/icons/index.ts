@@ -7,3 +7,4 @@ export { default as Wa } from './Wa';
 export { default as Cross } from './Cross';
 export { default as Figure } from './Figure';
 export { default as BackgroundCirclesMagnifier } from './BackgroundCirclesMagnifier';
+export { default as BackgroundCirclesEducation } from './BackgroundCirclesEducation';
