@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Contacts from "./components/Contacts/Contacts";
+import AboutDoctor from "./components/sections/AboutDoctor/AboutDoctor";
 import Cards from "./components/sections/Cards/Cards";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Contacts />
       <Banner />
       <Cards />
+      <AboutDoctor />
     </main>
   );
 }
