@@ -1,21 +1,20 @@
 .rectangle {
   border-radius: 60px;
   padding: 64px 110px;
-  background: linear-gradient(
-    94.26deg,
-    #7091a7 2.1%,
-    #9bbbca 29.87%,
-    #a9c5d3 49.98%,
-    #aecad8 65.68%,
-    #92bdd1 81.57%,
-    #6e90a4 97.85%
-  );
+  background: linear-gradient(94.26deg,
+      #7091a7 2.1%,
+      #9bbbca 29.87%,
+      #a9c5d3 49.98%,
+      #aecad8 65.68%,
+      #92bdd1 81.57%,
+      #6e90a4 97.85%);
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .title {
-  margin-top: 50px;
+  margin-top: 52px;
   font-family: inherit;
   font-weight: 400;
   font-size: 54px;
@@ -32,18 +31,27 @@
   font-style: italic;
   font-size: 35px;
   line-height: 115%;
-  letter-spacing: 0%;
-  text-align: center;
+  letter-spacing: 0;
+  /* text-align: center; */
   color: #fdfdfd;
+  margin-left: 36px;
 }
 
 .subtitle span {
   font-weight: 700;
 }
 
+.wrapp {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
 .chip__container {
   display: flex;
   gap: 16px;
+  font-size: 22px;
 }
 
 .chip {
@@ -68,17 +76,70 @@
   font-family: Inter;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  transition: .2s;
 }
 
 .consult {
   width: 144px;
+  display: flex;
+  column-gap: 8px;
+  align-items: flex-end;
+}
+
+.cross {
+  width: 35px;
+  height: 35px;
+  border-radius: 60px;
+  background-color: #7091A7;
+  padding: 6px;
+}
+
+.container_name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin: 52px 56px 0 0;
+}
+
+.figure {
+  width: 16px;
+  height: 24px;
+}
+
+.name {
+  line-height: 125%;
+  font-size: 25px;
+  color: #0B3347;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  color: transparent;
+  position: absolute;
+  top: -160px;
+  right: -28px;
+  pointer-events: none;
+}
+
+.name span:first-child {
+  font-weight: 700;
 }
 
 .consult p {
   color: #395664;
   font-size: 15px;
+  line-height: 15px;
 }
 
 .consult p span {
   font-weight: 700;
+}
+
+
+.button:hover {
+  opacity: 1;
+  background-color: #FFFFFF;
+  color: #6D7FCC;
+  box-shadow: 0px 3px #A9B0CD;
 }
