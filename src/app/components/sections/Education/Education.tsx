@@ -6,17 +6,17 @@ import { BackgroundCirclesEducation } from "@/app/assets/icons";
 import { Arsenal } from "next/font/google";
 
 const arsenal = Arsenal({
-  weight: ["400", "700"],
-  style: ['normal', 'italic'],
-  subsets: ["latin"],
+    weight: ["400", "700"],
+    style: ['normal', 'italic'],
+    subsets: ["latin"],
 });
 
 const Education = () => {
     return (
         <section className={s.education} id="education">
             <div className={s.wrapBgImg}>
-            <BackgroundCirclesEducation />
-            <Image src={academicHat} alt='Академическая шляпа лежит на книге' className={s.academicHat}/>
+                <BackgroundCirclesEducation />
+                <Image src={academicHat} alt='Академическая шляпа лежит на книге' className={s.academicHat} />
             </div>
             <h2 className={`${s.title} ${arsenal.className}`}>ОБРАЗОВАНИЕ</h2>
             <ul className={s.list}>

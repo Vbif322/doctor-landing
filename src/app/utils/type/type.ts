@@ -6,3 +6,9 @@ export type TCard = {
     img: StaticImageData;
     alt: string;
 };
+
+export type TStaticCard = {
+    title: string;
+    img: StaticImageData;
+    alt: string;
+};
