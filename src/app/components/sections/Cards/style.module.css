@@ -5,3 +5,10 @@
     position: relative;
     justify-content: center;
 }
+
+.wrapBgImg {
+    position: absolute;
+    bottom: -10px;
+    left: -201px;
+    z-index: -1;
+}

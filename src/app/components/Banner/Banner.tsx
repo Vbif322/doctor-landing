@@ -1,7 +1,7 @@
 import { type FC } from "react";
 import s from "./style.module.css";
 import { Arsenal } from "next/font/google";
-import { Cross, Figure } from "@/app/assets/icons";
+import { BackgroundCirclesBanner, Cross, Figure } from "@/app/assets/icons";
 import Image from "next/image";
 import { banner } from '@/app/assets/img'
 
@@ -14,6 +14,9 @@ const arsenal = Arsenal({
 const Banner: FC = () => {
   return (
     <div className={`${s.rectangle} ${arsenal.className}`}>
+      <div className={s.wrapBgImg}>
+        <BackgroundCirclesBanner />
+      </div>
       <div>
         <div className={s.chip__container}>
           <div className={s.chip}>Невролог</div>

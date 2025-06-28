@@ -32,7 +32,6 @@
   font-size: 35px;
   line-height: 115%;
   letter-spacing: 0;
-  /* text-align: center; */
   color: #fdfdfd;
   margin-left: 36px;
 }
@@ -142,4 +141,11 @@
   background-color: #FFFFFF;
   color: #6D7FCC;
   box-shadow: 0px 3px #A9B0CD;
+}
+
+.wrapBgImg {
+    position: absolute;
+    top: -102px;
+    right: -213px;
+    z-index: -1;
 }

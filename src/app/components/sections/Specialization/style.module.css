@@ -1,0 +1,27 @@
+.specialization {
+    position: relative;
+    margin-top: 128px;
+}
+
+.title {
+    color: #0B3347;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 114%;
+}
+
+.list {
+    gap: 27px 25px;
+    margin-top: 52px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapBgImg {
+    position: absolute;
+    bottom: -371px;
+    left: -201px;
+    z-index: -1;
+}

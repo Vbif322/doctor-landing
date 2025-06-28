@@ -8,3 +8,7 @@ export { default as Cross } from './Cross';
 export { default as Figure } from './Figure';
 export { default as BackgroundCirclesMagnifier } from './BackgroundCirclesMagnifier';
 export { default as BackgroundCirclesEducation } from './BackgroundCirclesEducation';
+export { default as BackgroundCirclesSpecialization } from './BackgroundCirclesSpecialization';
+export { default as BackgroundCirclesServices } from './BackgroundCirclesServices';
+export { default as BackgroundCirclesNav } from './BackgroundCirclesNav';
+export { default as BackgroundCirclesBanner } from './BackgroundCirclesBanner';
