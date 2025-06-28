@@ -3,6 +3,7 @@ import Contacts from "./components/Contacts/Contacts";
 import AboutDoctor from "./components/sections/AboutDoctor/AboutDoctor";
 import Cards from "./components/sections/Cards/Cards";
 import Education from "./components/sections/Education/Education";
+import Specialization from "./components/sections/Specialization/Specialization";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Cards />
       <AboutDoctor />
       <Education />
+      <Specialization />
     </main>
   );
 }
