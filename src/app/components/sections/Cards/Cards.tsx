@@ -1,6 +1,7 @@
 import { cardsData } from "@/app/utils/constants";
 import Card from "../../Card/Card";
 import s from "./style.module.css";
+import { BackgroundCirclesNav } from "@/app/assets/icons";
 
 const Cards = () => {
   return (
@@ -14,6 +15,9 @@ const Cards = () => {
           alt={card.alt}
         />
       ))}
+      <div className={s.wrapBgImg}>
+        <BackgroundCirclesNav />
+      </div>
     </nav>
   );
 };
