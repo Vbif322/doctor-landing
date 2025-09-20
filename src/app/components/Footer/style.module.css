@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 264px;
+  background-color: #d4eaf7;
+  display: flex;
+  padding-top: 48px;
+  padding-left: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

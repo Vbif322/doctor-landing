@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={`${inter.className} wrapper`}>{children}</body>
+      <body className={`${inter.className}`}>{children}</body>
     </html>
   );
 }

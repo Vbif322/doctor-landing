@@ -24,13 +24,15 @@ button {
   padding: 0;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
+a:hover,
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s;
 }
 
-
-a:hover, button:hover {
-  opacity: .8;
-  transition: .2s;
+.info_link {
+  display: flex;
+  align-items: end;
+  column-gap: 16px;
+  color: #3e3e3e;
 }

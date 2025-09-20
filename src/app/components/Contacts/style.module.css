@@ -2,7 +2,8 @@
   position: relative;
   display: flex;
   height: 108px;
-  /* max-width: 1396px; */
+  width: 100%;
+  max-width: 1508px;
   justify-content: space-between;
   align-items: center;
   font-weight: 400;
@@ -14,17 +15,6 @@
 .container {
   display: flex;
   gap: 56px;
-}
-
-.info_link {
-  display: flex;
-  align-items: end;
-  column-gap: 16px;
-  color: #3E3E3E;
-}
-
-.info_link_noneDecoration {
-  text-decoration: none;
 }
 
 .social_container {
